@@ -2,7 +2,7 @@ def my_select(array)
   i = 0
   result = []
   while i < array.size
-  
+  if array[i] === 
     result << yield(array[i]) 
     
     i += 1
